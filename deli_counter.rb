@@ -1,6 +1,6 @@
 def line(deli)
   deli1 = []
-  katz_deli.each_with_index { |name, i| other_deli << "#{i+1}. #{name}" }
+  katz_deli.each_with_index { |name, i| deli1 << "#{i+1}. #{name}" }
   if deli.empty?
     puts "The line is currently empty."
   else
